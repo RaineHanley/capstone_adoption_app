@@ -1,0 +1,2 @@
+class FavoritedPet < ApplicationRecord
+end
