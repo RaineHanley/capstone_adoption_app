@@ -1,0 +1,2 @@
+module FavoritedPetsHelper
+end

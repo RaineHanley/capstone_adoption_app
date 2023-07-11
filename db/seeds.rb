@@ -7,8 +7,8 @@
 #   Character.create(name: "Luke", movie: movies.firs
 User.create!(name: "Raine", email: "rhanley@email.com", password: "password", image_url: "")
 
-Pet.create!(name: "Dash", image_url: "", description:"Playful Rottweiler looking for his forever home. Sweet and loyal", days_in_shelter: 20, kennel_number: 15, location: "Humane Society")
+Pet.create!(name: "Dash", image_url: "", description: "Playful Rottweiler looking for his forever home. Sweet and loyal", days_in_shelter: 20, kennel_number: 15, location: "Humane Society")
 
-FavoritedPet.create!(user_id: 1, pet_id: 3)
+Favorited_Pets.create!(user_id: 2, pet_id: 2)
 
 Location.create!(name: "ASPCA", address: "Brooklyn, 2336 Linden Blvd, Brooklyn, NY 11208")
