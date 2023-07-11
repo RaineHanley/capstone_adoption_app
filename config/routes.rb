@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get "/pets/:id" => "pets#show"
 
   post "/favorited_pets" => "favorited_pets#create"
+
+  post "/users" => "users#create"
 end
