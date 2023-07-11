@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   post "/favorited_pets" => "favorited_pets#create"
 
   post "/users" => "users#create"
+
+  post "/sessions" => "sessions#create"
 end
