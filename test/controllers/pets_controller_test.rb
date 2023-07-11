@@ -8,4 +8,9 @@ class PetsControllerTest < ActionDispatch::IntegrationTest
     data = JSON.parse(response.body)
     assert_equal Pet.count, data.length
   end
+
+  test "show" do
+    get "/pets/#{Pet.first.id}.json"
+    assert_response 200
+  end
 end
