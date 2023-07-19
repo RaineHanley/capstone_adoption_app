@@ -9,6 +9,12 @@ User.create!(name: "Raine", email: "rhanley@email.com", password: "password", im
 
 Pet.create!(name: "Dash", image_url: "", description: "Playful Rottweiler looking for his forever home. Sweet and loyal", days_in_shelter: 20, kennel_number: 15, location: "Humane Society")
 
-Favorited_Pets.create!(user_id: 2, pet_id: 2)
+Pet.create!(name: "Lucy", image_url: "", description: "Sweet Greyhound mix who is", days_in_shelter: 10, kennel_number: 1, location: "ASPCA")
+
+Favorited_Pets.create!(user_id: 2, pet_id: 1)
+
+Favorited_Pets.create!(user_id: 1, pet_id: 2)
 
 Location.create!(name: "ASPCA", address: "Brooklyn, 2336 Linden Blvd, Brooklyn, NY 11208")
+
+Location.create!(name: "Humane Society", address: "Reno, NV")

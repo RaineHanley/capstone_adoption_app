@@ -7,7 +7,7 @@ one:
   breed: MyString
   days_in_shelter: 1
   kennel_number: 1
-  location: MyString
+  location: one
 
 two:
   name: MyString
@@ -16,4 +16,4 @@ two:
   breed: MyString
   days_in_shelter: 1
   kennel_number: 1
-  location: MyString
+  location: two

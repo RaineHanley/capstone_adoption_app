@@ -11,6 +11,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 
 gem 'simple_command'
+gem "http"
+gem "rack-cors"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
